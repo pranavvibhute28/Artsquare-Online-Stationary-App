@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sp3">
+        <item> Notebooks </item>
+        <item> Writing pad </item>
+        <item> Engineering Stationery </item>
+        <item> General Stationery </item>
+        <item> Office Stationery </item>
+        <item> Art Stationery</item>
+    </string-array>
+    <string-array name="sp2">
+        <item> Add stock </item>>
+        <item> Update Stock </item>>
+    </string-array>
+</resources>

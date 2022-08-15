@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".helpact1"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:text="HOW TO CREATE ACCOUNT ?"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:text="To create an Account on ArtSquare Stationery App, you just have to click on the 'Register Account' text on the Login page and enter all the details that are required. After specifying the details in the respective input fields you can just click on the Register button. \n \nIf you need any help exactly while registering the account, just click the Information icon on the right hand side top corner."
+        android:textColor="#000000"
+        android:textSize="20dp" />
+</LinearLayout>

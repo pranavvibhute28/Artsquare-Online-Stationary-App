@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".grid1"
+    android:background="#fff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp">
+
+                <LinearLayout android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/w1" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Writing Pad (Set of 12)"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:onClick="wpad"/>
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="₹899"
+                        android:layout_marginTop="5dp"
+                        android:textStyle="bold"
+                        android:textColor="#DD0E0E"
+                        android:textSize="16sp"/>
+                </LinearLayout>
+
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

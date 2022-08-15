@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".helpact7"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:text="ABOUT US"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:text="ArtSquare Stationery now makes you available with an option to purchase goods online, without having to get outdoors.
+                        \n\nYou can search for your needed relevant product and purchase it.
+                        \n\nThere's also a Favourites feature where you can suggest us your favourite product from all the others available.
+                        \n\nOur app is very much user friendly and understandable by the consumers registered with it.
+                        \n\nYou are provided with various helps like locating the shop through the app and a helpline number has also been provided for your concern.
+                        \n\nHappy Shopping..!!"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_marginBottom="30dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

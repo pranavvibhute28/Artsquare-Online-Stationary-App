@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "436996961551",
+    "firebase_url": "https://artsquare-stationery-dc254-default-rtdb.firebaseio.com",
+    "project_id": "artsquare-stationery-dc254",
+    "storage_bucket": "artsquare-stationery-dc254.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436996961551:android:4583667ff37f72e8b47a7a",
+        "android_client_info": {
+          "package_name": "com.example.artsquarestationery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436996961551-5l2rt7b4eisjhj0do325s90cj8nbso12.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.artsquarestationery",
+            "certificate_hash": "1f7dee93aaa7a6f2df938ef49103c018fd5fb473"
+          }
+        },
+        {
+          "client_id": "436996961551-2klntb71uc7r98ql5s6jmpti4bm2dfr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARgNK9raGjFi0humgByjYA6yVSYXCEuMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436996961551-2klntb71uc7r98ql5s6jmpti4bm2dfr7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

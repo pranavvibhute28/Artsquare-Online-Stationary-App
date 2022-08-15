@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".finalbill"
+    android:orientation="vertical"
+    android:background="@drawable/book">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <ImageView
+           android:id="@+id/imageView11"
+           android:layout_width="50dp"
+           android:layout_height="wrap_content"
+           app:srcCompat="@android:drawable/ic_menu_revert"
+           android:onClick="backtoop"/>
+
+       <TextView
+           android:id="@+id/textView34"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Contact Number : 9999988888"
+           android:textColor="#000"
+           android:gravity="right"
+           android:textStyle="bold"
+           android:layout_marginRight="10dp"/>
+
+   </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ArtSquare Stationery"
+        android:textSize="40sp"
+        android:gravity="right"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#fff"
+        android:fontFamily="georgia"/>
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INVOICE"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="50dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="#000000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Customer Name :"
+            android:textColor="#000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/billname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="13sp"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Contact Number :"
+            android:textColor="#000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/billcontact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="13sp"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Customer Address :"
+            android:textColor="#000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/billaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="13sp"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Invoice Number :"
+            android:textColor="#000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/billInvoiceno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="13sp"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Date :"
+            android:textColor="#000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/billDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="13sp"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Time :"
+            android:textColor="#000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/billTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="13sp"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="#000000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Item Name :"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/billitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Price :"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/billprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Quantity :"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/billquantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="#000000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/billtotalprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Price : ₹"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SCREENSHOT THE BILL"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textStyle="bold|italic"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".stock_information"
+    android:orientation="vertical"
+    android:background="#7CFFC107">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stock Information"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#FF9900"
+        android:fontFamily="cursive"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/listv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/corner"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+</LinearLayout>

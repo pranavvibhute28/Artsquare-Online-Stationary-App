@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".helpact4"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:text="Check Account Details along with that how to Edit your information"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="After logging in to the Application you are being directed to the home screen along with a navigation pane, you have to click in there on to the icon of profile. You can see your account details here. If you want to update your data or view your favourites containing products, the buttons provided in the Profile tab will help you go there. \n\nYou can also edit your information by clicking on the Edit Information button"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+</LinearLayout>

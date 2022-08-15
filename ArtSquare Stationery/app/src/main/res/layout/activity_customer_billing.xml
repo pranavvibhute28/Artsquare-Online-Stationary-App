@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customer_billing"
+    android:orientation="vertical"
+    android:background="@drawable/adback">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOUR BILL"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="10dp"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        android:outlineAmbientShadowColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ITEM"
+                android:textColor="#9C27B0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="30dp"/>
+
+            <TextView
+                android:id="@+id/textVie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QUANTITY"
+                android:textColor="#FF0000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="30dp"/>
+
+            <TextView
+                android:id="@+id/textVi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PRICE"
+                android:textColor="#0037FF"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="30dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="25dp">
+
+            <TextView
+                android:id="@+id/item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="30dp"/>
+
+            <TextView
+                android:id="@+id/quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="30dp"/>
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="30dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/crtaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:ems="10"
+        android:hint="Enter Your Correct Address"
+        android:inputType="textPostalAddress" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TOTAL PRICE OF ORDER : ₹5500"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textStyle="italic|bold"/>
+
+
+    <Button
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CASH ON DELIVERY"
+        android:layout_marginTop="20dp"
+        android:background="#FFC107"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:onClick="purchase"/>
+
+    <ProgressBar
+        android:id="@+id/pg"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/placed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#031368"
+        android:text="ORDER PLACED SUCCESSFULLY"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:textStyle="bold|italic"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GOOGLE PAY"
+        android:background="#FFC107"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:onClick="commingsoon"/>
+
+    <Button
+        android:id="@+id/three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAYTM"
+        android:background="#FFC107"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:onClick="commingsoon"/>
+
+    <TextView
+        android:id="@+id/limit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ORDER SHOULD BE ABOVE ₹3000"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="#FF0000"
+        android:textStyle="italic|bold"/>
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SCREENSHOT THE BILL"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textStyle="italic|bold"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpFragment"
+    android:orientation="vertical"
+    android:background="@drawable/cyang">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/help1"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="How to create account?"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/help2"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Search location of Shop"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/help3"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="How to place order?"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/help4"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Check account details"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/help5"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Know more about payment methods"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/help6"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Helpline number"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/help7"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="About Us"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

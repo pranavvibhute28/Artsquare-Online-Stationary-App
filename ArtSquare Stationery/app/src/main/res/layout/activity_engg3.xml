@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".engg3"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="380dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/engg3"/>
+
+    <TextView
+        android:id="@+id/itemname9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:text="PCB (Set of 10)"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/cost9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="300"
+        android:textColor="#0B650F"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="10% OFF - You save ₹45"
+        android:textColor="#673AB7"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:text="AVAILABLE IN STOCK"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/plus"
+            android:onClick="increment"/>
+
+        <TextView
+            android:id="@+id/value"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="1"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:focusable="false"
+            android:textSize="23dp"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/minus"
+            android:onClick="decrement"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="#FFC107"
+            android:text="ADD TO FAV"
+            android:onClick="favengg3"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:background="#FFC107"
+            android:text="BUY NOW"
+            android:onClick="buyengg3"/>
+
+    </LinearLayout>
+
+</LinearLayout>
